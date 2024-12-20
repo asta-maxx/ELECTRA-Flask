@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "stanlee47",
+      "name": "stanlee47",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116173029?v=4",
+      "profile": "https://github.com/stanlee47",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "ELECTRA-Flask",
+  "projectOwner": "asta-maxx"
+}
