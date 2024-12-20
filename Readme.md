@@ -1,3 +1,5 @@
+Here is the aligned and formatted README suitable for a GitHub repository:
+
 Electra Flask Training Application
 
 This project is a web-based platform designed to train machine learning models using a React frontend and a Flask backend. It supports user-provided datasets and allows for configuration of training parameters. The application provides a visual interface for monitoring results and downloading trained models.
@@ -12,7 +14,7 @@ Make sure you have the following installed on your system:
 	3.	Pip (Python package manager)
 	•	Pip is included by default in Python installations.
 	4.	Required Python Libraries
-	•	Flask, NumPy, and any other dependencies listed in requirements.txt.
+	•	Install Flask, NumPy, and other dependencies listed in requirements.txt.
 
 Installation Guide
 
@@ -29,13 +31,14 @@ Frontend Dependencies
 
 Navigate to the project directory and install the required npm packages:
 
-cd Electra_flask
+cd Electra_flask/frontend
 npm install
 
 Backend Dependencies
 
 Navigate back to the root directory and install the Python dependencies:
 
+cd ../backend
 pip install -r requirements.txt
 
 Usage Guide
@@ -44,7 +47,7 @@ Usage Guide
 
 To start the React development server:
 
-cd Electra_flask
+cd Electra_flask/frontend
 npm run dev
 
 The frontend will be available at http://localhost:3000.
@@ -52,6 +55,8 @@ The frontend will be available at http://localhost:3000.
 2. Running the Backend
 
 To start the Flask server:
+
+cd ../backend
 python app.py
 
 The backend will be available at http://localhost:8080.
@@ -63,7 +68,7 @@ Open your browser and navigate to http://localhost:3000 to use the application.
 Features
 
 	1.	Dataset Upload
-  • Users can upload their datasets (CSV format), which are validated and previewed in the app.
+	•	Users can upload their datasets (CSV format), which are validated and previewed in the app.
 	2.	Model Training Configuration
 	•	Configure parameters such as epochs, learning rate, batch size, optimizer, and imbalance handling techniques.
 	•	Select the target column for training.
@@ -83,8 +88,11 @@ Electra_flask/
 │   ├── package.json        # Frontend dependencies
 │   └── ...                 # Other React-related files
 │
-├── app.py                  # Flask app main file
-├── requirements.txt
+├── backend/                # Flask backend
+│   ├── app.py              # Flask app main file
+│   ├── requirements.txt    # Backend dependencies
+│   └── ...                 # Other backend scripts
+│
 └── README.md               # Project documentation
 
 API Endpoints
@@ -101,12 +109,11 @@ Request Body:
     "optimizer_choice": "AdamW",
     "learning_rate": 0.00005,
     "batch_size": 8,
-    "target_column": "label",
-    ...
+    "target_column": "label"
   },
   "data": [
     {"feature1": 1, "feature2": 0, "label": 1},
-    ...
+    {"feature1": 0, "feature2": 1, "label": 0}
   ]
 }
 
@@ -123,11 +130,11 @@ Response:
 Notes
 
 	1.	Frontend and Backend Communication
-Ensure that the Flask backend runs on http://localhost:8080 for the frontend to communicate with it properly.
+	•	Ensure that the Flask backend runs on http://localhost:8080 for the frontend to communicate with it properly.
 	2.	Dataset Format
-Upload datasets in CSV format with headers matching the required input fields.
+	•	Upload datasets in CSV format with headers matching the required input fields.
 	3.	Model Download
-After training, a downloadable link for the model archive (.zip) will be provided in the results page.
+	•	After training, a downloadable link for the model archive (.zip) will be provided in the results page.
 
 Troubleshooting
 
