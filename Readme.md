@@ -1,5 +1,3 @@
-Here is your README file in Markdown format with the appropriate formatting, sections, and emojis to enhance readability:
-
 ```markdown
 # Electra Flask Training Application ⚡
 
