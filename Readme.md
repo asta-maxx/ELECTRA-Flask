@@ -1,4 +1,4 @@
-```markdown
+
 # Electra Flask Training Application ⚡
 
 This project is a web-based platform designed to train machine learning models using a **React** frontend and a **Flask** backend. It supports user-provided datasets and allows for the configuration of training parameters. The application provides a visual interface for monitoring results and downloading trained models.
