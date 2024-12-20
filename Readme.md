@@ -65,7 +65,6 @@ The frontend will be available at [http://localhost:3000](http://localhost:3000)
 To start the Flask server:
 
 ```bash
-cd ../backend
 python app.py
 ```
 
@@ -99,11 +98,8 @@ Electra_flask/
 │   ├── package.json  # Frontend dependencies
 │   └── ...        # Other React-related files
 │
-├── backend/       # Flask backend
-│   ├── app.py     # Flask app main file
-│   ├── requirements.txt  # Backend dependencies
-│   └── ...        # Other backend scripts
-│
+├── app.py         # Flask app main file
+├── requirements.txt  # Backend dependencies│
 └── README.md      # Project documentation
 ```
 
