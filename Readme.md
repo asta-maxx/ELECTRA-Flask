@@ -169,11 +169,7 @@ Electra_flask/
 - Confirm that the Flask backend successfully processes the request and returns the expected JSON.
 - Verify that the `onTrainingComplete` function correctly passes results to the results visualization page.
 
-## Contributions 🤝
-
-Feel free to fork the repository, raise issues, or submit pull requests to improve the project.
-
 ## License 📝
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
