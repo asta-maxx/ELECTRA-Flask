@@ -1,4 +1,7 @@
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 # Electra Flask Training Application
 
 This project is a web-based platform designed to train machine learning models using a **React** frontend and a **Flask** backend. It supports user-provided datasets and allows for the configuration of training parameters. The application provides a visual interface for monitoring results and downloading trained models.
@@ -169,3 +172,25 @@ Electra_flask/
 
 This project is licensed under the MIT License.
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/stanlee47"><img src="https://avatars.githubusercontent.com/u/116173029?v=4?s=100" width="100px;" alt="stanlee47"/><br /><sub><b>stanlee47</b></sub></a><br /><a href="#infra-stanlee47" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/asta-maxx/ELECTRA-Flask/commits?author=stanlee47" title="Tests">⚠️</a> <a href="https://github.com/asta-maxx/ELECTRA-Flask/commits?author=stanlee47" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
