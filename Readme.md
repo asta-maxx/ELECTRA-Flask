@@ -58,7 +58,7 @@ cd Electra_flask/frontend
 npm run dev
 ```
 
-The frontend will be available at [http://localhost:3000](http://localhost:3000).
+The frontend will be available at [http://localhost:5173](http://localhost:5173).
 
 ### 2. Running the Backend
 
@@ -72,7 +72,7 @@ The backend will be available at [http://localhost:8080](http://localhost:8080).
 
 ### 3. Access the Application
 
-Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to use the application.
+Open your browser and navigate to [http://localhost:5173](http://localhost:5173) to use the application.
 
 ## Features 🌟
 
@@ -153,7 +153,7 @@ Electra_flask/
 ### Issue: Frontend Not Loading
 
 - Ensure you have run `npm install` in the frontend directory.
-- Make sure the frontend is running at [http://localhost:3000](http://localhost:3000) by executing `npm run dev`.
+- Make sure the frontend is running at [http://localhost:5173](http://localhost:5173) by executing `npm run dev`.
 
 ### Issue: Backend Not Responding
 
