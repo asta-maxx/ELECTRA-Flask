@@ -176,6 +176,4 @@ Feel free to fork the repository, raise issues, or submit pull requests to impro
 ## License 📝
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
 
-This version of the README is properly formatted for GitHub, includes relevant emojis for a more engaging presentation, and breaks down sections clearly for ease of understanding.
