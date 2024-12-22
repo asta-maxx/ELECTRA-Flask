@@ -168,6 +168,12 @@ Electra_flask/
 - Confirm that the Flask backend successfully processes the request and returns the expected JSON.
 - Verify that the `onTrainingComplete` function correctly passes results to the results visualization page.
 
+### Issue: Module error (accelarate)
+
+- Use
+```
+pip install -U accelerate
+```
 ## License 📝
 
 This project is licensed under the MIT License.
